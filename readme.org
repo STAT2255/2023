@@ -3,7 +3,7 @@
 # * Fall 2023 *Syllabus*
 <2023-08-28 Mon> - <2023-12-08 Fri>
 
-** Course Information
+* Course Information
 
 - Time and Location
   - Time: *TuTh 9:30AM-10:45AM*
@@ -27,14 +27,14 @@ posted at this repository.
 
 - Prerequisite: MATH 1132Q, or instructor consent.
 
-** Course objectives
+* Course objectives
 Introduction to statistical programming via Python including data types, control
 flow, object-oriented programming, and graphical user interface-driven
 applications such as Jupyter notebooks. Emphasis on algorithmic thinking,
 efficient implementation of different data structures, control and data
 abstraction, file processing, and data analysis and visualization.
 
-** Python
+* Python
 An easy way to setup Python is to install [[Https://www.anaconda.com/download/][Anaconda]].
 # [[https://docs.conda.io/en/latest/][conda]] by installing [[https://docs.conda.io/en/latest/miniconda.html][miniconda]] or
 # [[https://www.anaconda.com/download/][anaconda]]. Here is are some comparisons betwteen the two distribution [[https://conda.io/projects/conda/en/latest/user-guide/install/download.html#anaconda-or-miniconda][anaconda vs
@@ -44,7 +44,7 @@ An easy way to setup Python is to install [[Https://www.anaconda.com/download/][
 # set the auto_activate_base parameter to false:
 # conda config --set auto_activate_base false
 
-** Grading
+* Grading
 
 | Category                  | Weight |
 |---------------------------+--------|
@@ -53,7 +53,7 @@ An easy way to setup Python is to install [[Https://www.anaconda.com/download/][
 | Final                     |    40% |
 |---------------------------+--------|
 
-** Exams
+* Exams
 The midterm exam will be held in class on Thursday, and the final exam will be
 held at UConn scheduled time and location. They are closed book and closed
 notes. *No Make-up Exams!* The following is tentative exam schedule.
@@ -61,7 +61,7 @@ notes. *No Make-up Exams!* The following is tentative exam schedule.
 - Midterm (Tentative): <2023-10-19 Thu>, in class.
 - Final: TBA.
 
-** Homework:
+* Homework:
 
 Unless stated, homework should be submitted through HuskyCT. Homework
 submission should be in .ipynb, .md, .pdf, or .py format. 
@@ -70,7 +70,7 @@ Late submissions within the 2-day grace period will only be worth 50% - 95%
 of the points. Submissions beyond 2 days will not be graded and will receive
 no credit. No homework grade will be dropped.
 
-** Material coverage (subject to change)
+* Material coverage (subject to change)
 
 1. Virtual Environment, Markdown, Git and GitHub 
 2. Object Types and Statements
@@ -83,7 +83,7 @@ no credit. No homework grade will be dropped.
 9. Data Visualization and Hypothesis Testing
 10. Random Variable Generation
 
-** Academic Integrity
+* Academic Integrity
 
 A fundamental tenet of all educational institutions is academic honesty;
 academic work depends upon respect for and acknowledgement of the research and
@@ -104,7 +104,7 @@ violation, and shall be subject to the sanctions and other remedies described in
 The Student Code.
 
 
-** Support Services
+* Support Services
 
 - [[http://www.cmhs.uconn.edu/][Counseling and Mental Health Services]] 486-4705 (after hours, use 486-3427)
 - [[http://www.career.uconn.edu/][Career Services]] 486-3013
@@ -115,7 +115,7 @@ The Student Code.
 - Keep Learning: [[https://onlinestudent.uconn.edu/keeplearning/]]
 
 
-** Disclaimer
+* Disclaimer
 
 The instructor reserves the right to make changes to the syllabus as
 necessitated by circumstances.
