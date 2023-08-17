@@ -82,10 +82,20 @@ conda env create -n my_venv_3 -f environment.yml
 
 ## Install specific versions of packages in virtual environments
 
-First, check out existing virtual environments
+You can use `conda` or `pip`. `pip` is the Python Packaging Authority’s
+recommended tool for installing packages from the Python Package Index
+([PyPI](https://pypi.org/)). `conda` is an environment and package and
+management system. It install packages from the [Anaconda
+repository](https://repo.anaconda.com/). [PyPI](https://pypi.org/) contains more
+Python packages, while `conda` can package and distribute software for any
+language.
 
 ```shell
 conda install matplotlib=3.7.1
+```
+
+```shell
+pip install matplotlib==3.7.1
 ```
 
 ## Activating virtual environments
