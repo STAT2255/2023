@@ -34,10 +34,9 @@ efficient implementation of different data structures, control and data
 abstraction, file processing, and data analysis and visualization.
 
 * Python
-An easy way to setup Python is to install [[Https://www.anaconda.com/download/][Anaconda]].
-# [[https://docs.conda.io/en/latest/][conda]] by installing [[https://docs.conda.io/en/latest/miniconda.html][miniconda]] or
-# [[https://www.anaconda.com/download/][anaconda]]. Here is are some comparisons betwteen the two distribution [[https://conda.io/projects/conda/en/latest/user-guide/install/download.html#anaconda-or-miniconda][anaconda vs
-# miniconda]].
+An easy way to setup Python is to use [[https://docs.conda.io/en/latest/][conda]] by installing [[https://docs.conda.io/en/latest/miniconda.html][miniconda]] or
+[[https://www.anaconda.com/download/][anaconda]]. Here is are some comparisons betwteen the two distribution [[https://conda.io/projects/conda/en/latest/user-guide/install/download.html#anaconda-or-miniconda][anaconda vs
+miniconda]].
 
 # If you'd prefer that conda's base environment not be activated on startup,
 # set the auto_activate_base parameter to false:
