@@ -35,14 +35,14 @@ A virtual environment is a named, isolated, working copy of Python that that mai
 
 # Fix
 
-* To fix this, you can use a **virtual enviroment tool** to produce easily sharable virtual enviroment files.
+* To fix this, you can use a **virtual environment tool** to produce easily sharable virtual environment files.
 * Eeach virtual environment can be conceptualized as a separate box where you have the desired Python version and the required packages for your project.
 * These boxes are separate such that what you do in one project won’t affect other projects.
 * It’s always recommended that you create distinct virtual environments for your projects.
 
-# Setup Virtual Enviroment
+# Setup Virtual Environment
 
-Although there are many options to use, **Conda** and **Venv** are enviroment managers that are most popular and widely used. Here, we will use the first option. Setting up virtual enviroment using Venv can be found [here](https://realpython.com/python-virtual-environments-a-primer/).
+Although there are many options to use, **Conda** and **Venv** are environment managers that are most popular and widely used. Here, we will use the first option. Setting up virtual environment using Venv can be found [here](https://realpython.com/python-virtual-environments-a-primer/).
 
 **Note**: the codes in the following should be typed in:
 
@@ -57,9 +57,9 @@ First, check out existing virtual environments
 conda env list
 ```
 
-You should see only one virtual enviroment call *base*, which is created when you install Anaconda.
+You should see only one virtual environment called *base* if you use Anaconda.
 
-Now, we show several ways to create a virtual enviroment.
+Now, we show several ways to create a virtual environment.
 
 ### 1. Building a new virtual environments
 
@@ -67,7 +67,7 @@ Now, we show several ways to create a virtual enviroment.
 conda create -n my_venv python=3.9.7
 ```
 
-The above code create an virtual enviroment called *my_venv* with Python version 3.9.7
+The above code create an virtual environment called *my_venv* with Python version 3.9.7
 
 ### 2. Creating a virtual environment by cloning
 
@@ -85,9 +85,11 @@ conda env create -n my_venv_3 -f environment.yml
 
 You can use `conda` or `pip`. `pip` is the Python Packaging Authority’s
 recommended tool for installing packages from the Python Package Index
-([PyPI](https://pypi.org/)). `conda` is an environment and package and
+([PyPI](https://pypi.org/)).
+* `conda` is an environment and package and
 management system. It install packages from the [Anaconda
-repository](https://repo.anaconda.com/). [PyPI](https://pypi.org/) contains more
+repository](https://repo.anaconda.com/).
+* [PyPI](https://pypi.org/) contains more
 Python packages, while `conda` can package and distribute software for any
 language.
 
@@ -101,7 +103,7 @@ pip install matplotlib==3.7.1
 
 ## Activating virtual environments
 
-After the above creation, we have new virtual environments. Using `shell conda
+After the above creation, we have new virtual environments. Using `conda
  env list` you can see the new names. The environment that has asterisk
  indicates the active environment we are in. This means we are still in the base
  environment. To use the newly created virtual environment, we need to activate
@@ -130,6 +132,8 @@ commands below:
 conda env export -f environment.yml
 ```
 
+You can use the option `--from-history` to include only the manually installed packages.
+
 ## Deactivating virtual environments
 
 Once you are done using the virtual environment, if you want to switch back to
@@ -155,7 +159,7 @@ conda env remove -n my_venv_clone
 
 ## Set up for jupyter notebook
 
-1. create a new virtual enviroment
+1. create a new virtual environment
 
 ```shell
 conda create -n stat2255 python=3.11.4
