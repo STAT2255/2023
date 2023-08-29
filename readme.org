@@ -20,9 +20,9 @@
 - Notes: will be posted on this [[https://github.com/stat2255/2023][GitHub repo]]: *https://github.com/stat2255/2023*.
 
   Students should "watch" this repository to receive notifications for any
-updates. It is highly recommended that students "fork" this repository and make
-"pull requests". Course materials such as notes and source code files will be
-posted at this repository.
+  updates. It is highly recommended that students "fork" this repository and
+  make "pull requests". Course materials such as notes and source code files
+  will be posted at this repository. 
 
 - Prerequisite: MATH 1132Q, or instructor consent.
 
