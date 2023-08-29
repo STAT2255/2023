@@ -7,6 +7,7 @@ A virtual environment is a named, isolated, working copy of Python that that mai
 * Python is evolving fast.
 * Python’s third-party packages are evolving really fast too.
 * Different versions are not always compatible.
+* You don't want to mess up the default Python in your computer system.
 
 ## Scenario 1
 
@@ -15,15 +16,15 @@ A virtual environment is a named, isolated, working copy of Python that that mai
 
 ## Scenario 2
 
-* Your project A uses Python 2.7 and package a (v1.0)
-* Your project B uses Python 3.9 and package a (v2.1)
+* Your project A uses Python 3.6 and package a (v1.2)
+* Your project B uses Python 3.8 and package a (v2.2)
 * You can’t use the default Python on your computer system, as well as other packages, which are set to be a certain version.
   ![image](https://miro.medium.com/max/493/1*YB6YkrefMAj7MRn8nzrvXQ.png)
 
 ## Scenario 3
 
 * Your co-worker is working on a project and he is using an Python version that is different from yours.
-* He/she sent the project to you ask for collaboration.
+* He/she sent the project to you to ask for collaboration.
 * The codes may not work.
 
 ## Scenario 4
@@ -46,7 +47,7 @@ Although there are many options to use, **Conda** and **Venv** are enviroment ma
 **Note**: the codes in the following should be typed in:
 
 * Anaconda Prompt (Windows)
-* Terminal (Mac)
+* Terminal (Mac and Linux)
 
 ## Creating virtual environments
 

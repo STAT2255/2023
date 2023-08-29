@@ -70,7 +70,7 @@ no credit. No homework grade will be dropped.
 
 * Material coverage (subject to change)
 
-1. Virtual Environment, Markdown, Git and GitHub 
+1. Virtual Environment, Markdown (maybe Git and GitHub) 
 2. Object Types and Statements
 3. Modules
 4. Object-Oriented Programming
