@@ -134,6 +134,11 @@ conda env export -f environment.yml
 
 You can use the option `--from-history` to include only the manually installed packages.
 
+```shell
+conda env export --from-history -f environment.yml
+```
+
+
 ## Deactivating virtual environments
 
 Once you are done using the virtual environment, if you want to switch back to
