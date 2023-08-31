@@ -86,12 +86,13 @@ conda env create -n my_venv_3 -f environment.yml
 You can use `conda` or `pip`. `pip` is the Python Packaging Authority’s
 recommended tool for installing packages from the Python Package Index
 ([PyPI](https://pypi.org/)).
+
 * `conda` is an environment and package and
-management system. It install packages from the [Anaconda
-repository](https://repo.anaconda.com/).
+  management system. It install packages from the [Anaconda
+  repository](https://repo.anaconda.com/).
 * [PyPI](https://pypi.org/) contains more
-Python packages, while `conda` can package and distribute software for any
-language.
+  Python packages, while `conda` can package and distribute software for any
+  language.
 
 ```shell
 conda install matplotlib=3.7.1
@@ -137,7 +138,6 @@ You can use the option `--from-history` to include only the manually installed p
 ```shell
 conda env export --from-history -f environment.yml
 ```
-
 
 ## Deactivating virtual environments
 
@@ -194,16 +194,31 @@ pip install jupyter notebook --upgrade
 ```shell
 jupyter notebook
 ```
+
+In case Jupyter notebook does not load correctly in you browser, you can try the three different ways of accessing the it given from the commend line output. It should looks like this:
+
+```shell
+    To access the server, open this file in a browser:
+        file:///home/ossifragus/.local/share/jupyter/runtime/jpserver-306254-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/tree?token=79fbaa927aec8dfc33c71e15cbc70b086fd63d4d66d4ecf6
+        http://127.0.0.1:8888/tree?token=79fbaa927aec8dfc33c71e15cbc70b086fd63d4d66d4ecf6
+```
+
 <!-- 4. Add the stat2255 kernel in jupyter -->
 
 <!-- ```shell -->
+
 <!-- python -m ipykernel install --user --name=stat2255 -->
+
 <!-- ``` -->
 
 <!-- 5. To remove the kernel  -->
 
 <!-- ```shell -->
+
 <!-- jupyter kernelspec uninstall stat2255 -->
+
 <!-- ``` -->
 
 ## Reference
