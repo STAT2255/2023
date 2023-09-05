@@ -68,6 +68,24 @@ Late submissions within the 2-day grace period will only be worth 50% - 95%
 of the points. Submissions beyond 2 days will not be graded and will receive
 no credit. No homework grade will be dropped.
 
+** Generate pdf files
+You need [[https://pandoc.org/][pandoc]] and xelatex to export pdf files from jupyter book. Here are two
+solutions.
+
+*** Print the webpage
+This is a ad hoc solution, but it is easier. Adjust the width of your browser to
+make the pdf print look better.
+
+*** Install pandoc and xelatex
+
+- Download and install pandoc [[https://github.com/jgm/pandoc/releases/tag/3.1.7][here]]. Choose the .pkg version for Mac and the .msi
+  version for Windows.
+- Download and install [[https://miktex.org/download][MiKTeX]] (better with Windows) or [[https://tug.org/mactex/][MacTeX]] (Mac only).
+- You may need to restart your anaconda prompt and/or shell for the two
+  newly installed software to work. 
+- With MiKTeX the fist time you export a pdf file, you need to wait for a while,
+  because it needs to fetch necessary packages online.
+
 * Material coverage (subject to change)
 
 1. Virtual Environment, Markdown (maybe Git and GitHub) 
