@@ -62,7 +62,7 @@ notes. *No Make-up Exams!* The following is tentative exam schedule.
 * Homework:
 
 Unless stated, homework should be submitted through HuskyCT. Homework
-submission should be in .ipynb, .md, .pdf, or .py format. 
+submissions *must contains a .pdf file* along with .ipynb, .md, or .py format. 
 
 Late submissions within the 2-day grace period will only be worth 50% - 95%
 of the points. Submissions beyond 2 days will not be graded and will receive
