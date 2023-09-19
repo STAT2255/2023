@@ -99,6 +99,14 @@ make the pdf print look better.
 9. Data Visualization and Hypothesis Testing
 10. Random Variable Generation
 
+* References
+
+1. Devroye, Luc. (2013). Non-Uniform Random Variate Generation. Springer-Verlag.
+2. Lutz, Mark. (2013). Learning Python: Powerful Object-Oriented Programming. United States: O'Reilly Media.
+3. McKinney, Wes. (2013). [[https://wesmckinney.com/book/python-basics.html][Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython.]] O'Reilly Media. ISBN: 9789351100065. 
+4. Sheehy, Donald R. (2022). [[https://donsheehy.github.io/datastructures/fullbook.pdf][A First Course on Data Structures in Python]].
+# 5. [[https://github.com/datawhalechina/joyful-pandas][Pandas Practice Dataset]].
+
 * Academic Integrity
 
 A fundamental tenet of all educational institutions is academic honesty;
