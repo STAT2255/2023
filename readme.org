@@ -107,6 +107,10 @@ make the pdf print look better.
 4. Sheehy, Donald R. (2022). [[https://donsheehy.github.io/datastructures/fullbook.pdf][A First Course on Data Structures in Python]].
 # 5. [[https://github.com/datawhalechina/joyful-pandas][Pandas Practice Dataset]].
 
+** Two quick reference cards
+ - [[https://www.cs.put.poznan.pl/csobaniec/software/python/py-qrc.html][Python 3 – Quick Reference Card]]
+ - [[https://quickref.me/python.html][Python cheatsheet]]
+
 * Academic Integrity
 
 A fundamental tenet of all educational institutions is academic honesty;
