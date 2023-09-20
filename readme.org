@@ -111,6 +111,9 @@ make the pdf print look better.
  - [[https://www.cs.put.poznan.pl/csobaniec/software/python/py-qrc.html][Python 3 – Quick Reference Card]]
  - [[https://quickref.me/python.html][Python cheatsheet]]
 
+** Python exercises with sample solutions
+ - [[https://www.w3resource.com/python-exercises/][Python Exercises, Practice, Solution]]
+
 * Academic Integrity
 
 A fundamental tenet of all educational institutions is academic honesty;
