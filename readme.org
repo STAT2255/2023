@@ -114,6 +114,9 @@ make the pdf print look better.
 ** Python exercises with sample solutions
  - [[https://www.w3resource.com/python-exercises/][Python Exercises, Practice, Solution]]
 
+** Python Tutor
+ - https://pythontutor.com/visualize.html
+
 * Academic Integrity
 
 A fundamental tenet of all educational institutions is academic honesty;
