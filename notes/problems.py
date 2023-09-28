@@ -42,10 +42,65 @@ play(A, B)
 play(B, C)
 play(A, C)
 
-boxes = [['g', 'g'], ['s', 's'], ['g', 's']]
-box = random.choice(boxes)
-coin = random.choice(box)
-coin
+# Version 1
+n_gold_coin = 0
+n_both_gold = 0
+N = 1000
+for i in range(N):
+    boxes = [['g', 'g'], ['s', 's'], ['g', 's']]
+    box = random.choice(boxes)
+    coin = random.choice(box)
+    if coin == 'g':
+        n_gold_coin = n_gold_coin + 1
+        if box == ['g', 'g']:
+            n_both_gold += 1
+n_both_gold / n_gold_coin 
+
+# version 2
+def bert():
+    boxes = [['g', 'g'], ['s', 's'], ['g', 's']]
+    box = random.choice(boxes)
+    coin = random.choice(box)
+    return box, coin
 
 n_gold_coin = 0
 n_both_gold = 0
+N = 1000
+random.seed(1)
+for i in range(N):
+    box, coin = bert()
+    if coin == 'g':
+        n_gold_coin = n_gold_coin + 1
+        if box == ['g', 'g']:
+            n_both_gold += 1
+n_both_gold / n_gold_coin 
+
+bert()
+
+def birth(n_room, n_year):
+    year = list(range(1, n_year+1))
+    room = []
+    for i in range(n_room):
+        room.append(random.choice(year))
+        common_birthday = len(room) == len(set(room))
+    return common_birthday
+
+N = 1000
+n = 0
+for i in range(N):
+    n += birth(500, 2400000)
+n / N
+
+random.choices([1, 2, 3], k=4)
+
+def mont():
+    car = random.choice([1, 2, 3])
+    choice = 1
+    if car == 1:
+        host = random.choice([2, 3])
+    if car == 2:
+        host = 3
+    if car == 3:
+        host = 2
+    return host, car 
+mont()
