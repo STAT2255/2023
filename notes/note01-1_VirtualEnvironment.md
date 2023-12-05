@@ -1,4 +1,4 @@
-# What is Virtual enviroment?
+# What is Virtual environment?
 
 A virtual environment is a named, isolated, working copy of Python that that maintains its own files, directories, and paths so that you can work with specific versions of libraries or Python itself without affecting other Python projects.
 
