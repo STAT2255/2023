@@ -1,0 +1,13 @@
+name: stat2255
+channels:
+ - defaults
+dependencies:
+  - python=3.11.4
+  - ipykernel
+  - jupyter
+  - matplotlib
+  - pandas
+  - scipy
+  - statsmodels
+  - seaborn
+prefix: /home/ossifragus/anaconda3/envs/stat2255
